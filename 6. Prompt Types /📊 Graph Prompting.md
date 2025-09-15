@@ -1,198 +1,160 @@
-## 📊 Graph Prompting
+## 📊 Графовий промптинг
 
-Graph Prompting is a technique that uses graph structures to represent complex relationships and dependencies between different elements of a problem or scenario. This method allows for visual and logical representation of interconnected systems, making it easier to analyze and understand complex relationships.
+Графовий промптинг — це техніка, яка використовує графові структури для представлення складних взаємозв’язків і залежностей між різними елементами задачі чи сценарію. Такий підхід дає змогу візуально й логічно відобразити взаємопов’язані системи, що полегшує аналіз і розуміння складних структур.
 
-### Use Cases
+### Сфери застосування
 
 <details>
-<summary>Click to expand use cases</summary>
+<summary>Натисніть, щоб переглянути приклади застосування</summary>
 
-1. **Analyzing interconnected systems:** Helps in understanding how different parts of a system interact
-2. **Social network analysis:** Visualizes relationships and influences within social groups
-3. **Project dependency mapping:** Identifies critical paths and potential bottlenecks in project management
+1. **Аналіз взаємопов’язаних систем:** допомагає зрозуміти, як взаємодіють частини системи.
+2. **Аналіз соціальних мереж:** візуалізує стосунки та впливи в групах людей.
+3. **Картування залежностей у проєктах:** визначає критичні шляхи та потенційні вузькі місця в управлінні проєктами.
 
 </details>
 
-### Example Structure
+### Приклад структури
 
 ```markdown
-When using Graph Prompting, structure your approach like this:
-Task: "Analyze a small social network"
-Prompt:
-"Create a graph representation of this social network:
-Nodes: Alice, Bob, Charlie, David, Eve
-Edges:
-- Alice is friends with Bob and Charlie
-- Bob is friends with David
-- Charlie is friends with Eve
-- David is friends with Eve
-Now, analyze the graph to answer: Who is the most connected person in this network?"
+Використовуючи графовий промптинг, будуйте підхід так:
+Завдання: "Проаналізуй невелику соціальну мережу"
+Промпт:
+"Створи графове представлення цієї соціальної мережі:
+Вузли: Аліса, Боб, Чарлі, Девід, Єва
+Ребра:
+- Аліса дружить із Бобом і Чарлі
+- Боб дружить із Девідом
+- Чарлі дружить з Євою
+- Девід дружить з Євою
+Тепер проаналізуй граф і дай відповідь: Хто найзв’язніша людина в цій мережі?"
 ```
 
-### Examples of Graph Prompting
+### Приклади графового промптингу
 
 <details>
-<summary>Example 1: Business Operations Analysis</summary>
+<summary>Приклад 1: Аналіз бізнес-процесів</summary>
 
 ```markdown
-Use Graph Prompting to analyze and improve a small business's operations:
+Застосуйте графовий промптинг для аналізу й покращення роботи малого бізнесу:
 
-1. Identify nodes:
-   - List main business functions (e.g., Sales, Marketing, Production, Customer Service)
-   - Include key products or services
-   - Add major clients or customer segments
+1. Визначте вузли:
+   - Перерахуйте основні функції бізнесу (наприклад, продажі, маркетинг, виробництво, сервіс)
+   - Додайте ключові продукти чи послуги
+   - Вкажіть основних клієнтів або сегменти
 
-2. Define edges:
-   - Connect nodes based on information flow
-   - Indicate resource sharing between functions
-   - Show dependencies between products/services and business functions
+2. Визначте ребра:
+   - З’єднайте вузли відповідно до потоків інформації
+   - Позначте спільне використання ресурсів між функціями
+   - Показуйте залежності між продуктами/послугами й бізнес-функціями
 
-3. Analyze the graph:
-   - Identify the most connected nodes (potential bottlenecks or key areas)
-   - Look for isolated nodes or clusters (potential communication gaps)
-   - Determine critical paths for delivering products/services
+3. Проаналізуйте граф:
+   - Визначте найзв’язніші вузли (потенційні вузькі місця або ключові ділянки)
+   - Знайдіть ізольовані вузли чи кластери (можливі прогалини в комунікації)
+   - Визначте критичні шляхи для постачання продуктів/послуг
 
-4. Optimize operations:
-   - Suggest ways to streamline processes between highly connected nodes
-   - Propose methods to bridge gaps between isolated nodes
-   - Recommend resource allocation based on node importance
-```
-
-</details>
-
-<details>
-<summary>Example 2: Personal Goal Planning</summary>
-
-```markdown
-Apply Graph Prompting to plan and achieve personal goals:
-
-1. Identify nodes:
-   - List your major life goals (e.g., career advancement, fitness, learning a new skill)
-   - Include current skills and resources
-   - Add potential obstacles or challenges
-
-2. Define edges:
-   - Connect goals that are interdependent
-   - Link skills and resources to relevant goals
-   - Connect obstacles to the goals they might affect
-
-3. Analyze the graph:
-   - Identify goals with the most connections (high-impact areas)
-   - Look for isolated goals that might need more attention
-   - Determine which skills or resources support multiple goals
-
-4. Create an action plan:
-   - Prioritize goals based on their connections and impact
-   - Develop strategies to overcome obstacles
-   - Plan how to leverage existing skills and resources effectively
+4. Оптимізуйте роботу:
+   - Запропонуйте способи спростити процеси між найбільш зв’язними вузлами
+   - Порадьте методи, як скоротити розрив між ізольованими вузлами
+   - Рекомендуйте розподіл ресурсів залежно від важливості вузлів
 ```
 
 </details>
 
 <details>
-<summary>Example 3: Meal Planning and Nutrition</summary>
+<summary>Приклад 2: Планування особистих цілей</summary>
 
 ```markdown
-Use Graph Prompting to create a balanced and efficient meal plan:
+Застосуйте графовий промптинг для планування та досягнення особистих цілей:
 
-1. Identify nodes:
-   - List available ingredients in your pantry/fridge
-   - Add favorite recipes or meal ideas
-   - Include key nutrients (protein, carbs, vitamins, etc.)
+1. Визначте вузли:
+   - Перелічіть основні життєві цілі (наприклад, кар’єрний розвиток, фізична форма, нові навички)
+   - Додайте поточні навички та ресурси
+   - Вкажіть потенційні перешкоди чи виклики
 
-2. Define edges:
-   - Connect ingredients to the recipes they're used in
-   - Link recipes to the nutrients they provide
-   - Connect complementary ingredients or flavors
+2. Визначте ребра:
+   - З’єднайте цілі, що залежать одна від одної
+   - Пов’яжіть навички й ресурси з відповідними цілями
+   - З’єднайте перешкоди з цілями, на які вони впливають
 
-3. Analyze the graph:
-   - Identify versatile ingredients used in multiple recipes
-   - Look for nutrient gaps in your current meal ideas
-   - Find efficient meal combinations that use similar ingredients
+3. Проаналізуйте граф:
+   - Визначте цілі з найбільшою кількістю зв’язків (пріоритетні напрями)
+   - Знайдіть ізольовані цілі, яким бракує уваги
+   - З’ясуйте, які навички або ресурси підтримують кілька цілей одночасно
 
-4. Optimize meal planning:
-   - Create a shopping list based on the most connected ingredients
-   - Suggest new recipes to fill nutrient gaps
-   - Plan a week's worth of meals that minimize food waste and prep time
+4. Складіть план дій:
+   - Пріоритезуйте цілі за їхнім впливом і кількістю зв’язків
+   - Розробіть стратегії подолання перешкод
+   - Сплануйте, як ефективно використати наявні навички та ресурси
 ```
 
 </details>
 
 <details>
-<summary>Example 4: Home Energy Efficiency</summary>
+<summary>Приклад 3: Планування харчування</summary>
 
 ```markdown
-Apply Graph Prompting to improve your home's energy efficiency:
+Використайте графовий промптинг для створення збалансованого та ефективного плану харчування:
 
-1. Identify nodes:
-   - List rooms in your house
-   - Add major appliances and electronics
-   - Include energy sources (electricity, gas, solar, etc.)
+1. Визначте вузли:
+   - Перелічіть доступні інгредієнти у вашій коморі/холодильнику
+   - Додайте улюблені рецепти чи ідеї страв
+   - Вкажіть ключові поживні речовини (білки, вуглеводи, вітаміни тощо)
 
-2. Define edges:
-   - Connect appliances to the rooms they're in
-   - Link appliances to their energy sources
-   - Indicate energy flow between connected systems (e.g., heating/cooling)
+2. Визначте ребра:
+   - З’єднайте інгредієнти з рецептами, де вони використовуються
+   - Пов’яжіть рецепти з поживними речовинами, які вони забезпечують
+   - Позначте інгредієнти чи смаки, що гармоніюють між собою
 
-3. Analyze the graph:
-   - Identify the most energy-intensive nodes (rooms or appliances)
-   - Look for unexpected energy connections or dependencies
-   - Determine which energy sources are most utilized
+3. Проаналізуйте граф:
+   - Визначте універсальні інгредієнти, які використовуються в кількох стравах
+   - Знайдіть прогалини в отриманні поживних речовин
+   - Виявте комбінації страв, що використовують схожі інгредієнти
 
-4. Develop an efficiency plan:
-   - Prioritize upgrades for the most energy-intensive appliances
-   - Suggest behavioral changes to reduce energy use in key areas
-   - Recommend potential alternative energy sources based on usage patterns
+4. Оптимізуйте план харчування:
+   - Складіть список покупок на основі найбільш зв’язних інгредієнтів
+   - Запропонуйте нові рецепти для заповнення поживних прогалин
+   - Сплануйте тижневе меню, щоб мінімізувати харчові відходи й час на приготування
 ```
 
 </details>
 
-## 💡 Pro Tips for Effective Graph Prompting
+<details>
+<summary>Приклад 4: Енергоефективність у домі</summary>
 
-1. **Start simple:** Begin with the most essential nodes and edges, then expand as needed.
-2. **Use clear labels:** Ensure node and edge labels are concise and descriptive.
-3. **Consider directionality:** Use arrows to show the direction of relationships or dependencies when relevant.
-4. **Group related nodes:** Use color-coding or clustering to group related nodes for better visual understanding.
-5. **Iterate and refine:** Review and adjust your graph as you gain new insights or information.
-6. **Balance detail and clarity:** Include enough detail to be useful, but not so much that the graph becomes cluttered.
-7. **Use tools:** Utilize graph visualization tools or software for more complex graphs.
+```markdown
+Застосуйте графовий промптинг, щоб підвищити енергоефективність оселі:
+
+1. Визначте вузли:
+   - Перерахуйте кімнати в будинку
+   - Додайте основну техніку й електроніку
+   - Позначте джерела енергії (електрика, газ, сонячна енергія тощо)
+
+2. Визначте ребра:
+   - З’єднайте техніку з кімнатами, де вона розташована
+   - Пов’яжіть прилади з відповідними джерелами енергії
+   - Позначте потоки енергії між пов’язаними системами (наприклад, опалення/охолодження)
+
+3. Проаналізуйте граф:
+   - Визначте найбільш енергоємні вузли (кімнати чи прилади)
+   - Знайдіть неочікувані енергетичні зв’язки чи залежності
+   - З’ясуйте, які джерела енергії використовуються найчастіше
+
+4. Розробіть план підвищення ефективності:
+   - Пріоритезуйте модернізацію найбільш енергоємних приладів
+   - Запропонуйте зміни поведінки для зменшення споживання енергії в ключових зонах
+   - Рекомендуйте альтернативні джерела енергії на основі поточного використання
+```
+
+</details>
+
+## 💡 Поради для ефективного графового промптингу
+
+1. **Починайте з простого:** спершу визначте найважливіші вузли та ребра, а потім розширюйте граф.
+2. **Використовуйте чіткі підписи:** вузли й ребра мають мати стислий і зрозумілий опис.
+3. **Ураховуйте напрямок:** за потреби використовуйте стрілки, щоб показати напрямок зв’язків чи залежностей.
+4. **Групуйте споріднені вузли:** застосовуйте кольори або кластери для кращого візуального сприйняття.
+5. **Ітеруйте й удосконалюйте:** переглядайте та коригуйте граф у міру появи нових даних.
+6. **Баланс між деталізацією та ясністю:** додавайте стільки деталей, щоб граф був корисним, але не перевантаженим.
+7. **Користуйтеся інструментами:** для складних графів застосовуйте спеціалізовані програми або візуалізаційні сервіси.
 
 ---
-
-<details>
-<summary>📝 Practice Exercise: Creating a Graph Prompt Analysis</summary>
-
-1. Choose a complex system or scenario to analyze (e.g., a work project, a community issue, a personal challenge, or an area of study).
-
-2. Identify the key components (nodes) of your chosen system:
-   - List at least 10-15 important elements, actors, or factors
-   - Include both tangible and intangible components if relevant
-
-3. Define the relationships (edges) between the nodes:
-   - Describe how the components are connected or influence each other
-   - Consider different types of relationships (e.g., causal, supportive, conflicting)
-
-4. Create a visual representation of your graph:
-   - Use a digital tool or draw it by hand
-   - Ensure the graph is clear and readable
-
-5. Analyze your graph:
-   - Identify the most connected nodes (central or influential elements)
-   - Look for clusters or sub-groups within the system
-   - Find any isolated nodes or unexpected connections
-
-6. Draw insights from your analysis:
-   - What are the key leverage points in the system?
-   - Are there any bottlenecks or potential areas of improvement?
-   - How might changes in one area affect other parts of the system?
-
-7. Propose actions or solutions based on your insights:
-   - Suggest at least 3 specific actions to improve or optimize the system
-   - Explain how these actions might impact the overall system
-
-8. Reflect on the process:
-   - How did using Graph Prompting change your understanding of the system?
-   - What challenges did you face in creating and analyzing the graph?
-   - How might you use this technique in future problem-solving scenarios?
-
-</details>

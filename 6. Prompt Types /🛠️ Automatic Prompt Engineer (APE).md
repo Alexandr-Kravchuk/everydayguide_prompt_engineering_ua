@@ -1,201 +1,201 @@
 ## 🛠️ Automatic Prompt Engineer (APE)
 
-Automatic Prompt Engineer (APE) is a method for automatically generating and optimizing prompts for language models. It uses AI to create and refine prompts, reducing manual engineering effort and potentially improving the quality and effectiveness of prompts for various tasks. This technique aims to streamline the process of developing effective prompts for specific applications.
+Automatic Prompt Engineer (APE) — це метод, який автоматично генерує й оптимізує промпти для мовних моделей. Він використовує ШІ, щоб створювати та вдосконалювати промпти, зменшуючи ручні зусилля та потенційно підвищуючи якість і ефективність результатів для різних завдань. Мета техніки — спростити розробку дієвих промптів для конкретних застосувань.
 
-### Use Cases
+### Сфери застосування
 
 <details>
-<summary>Click to expand use cases</summary>
+<summary>Натисніть, щоб переглянути приклади застосування</summary>
 
-1. **Optimizing prompts for specific tasks or domains:** Enhances performance in targeted applications
-2. **Improving model performance across various applications:** Generates more effective prompts for diverse use cases
-3. **Generating diverse approaches to complex problems:** Creates multiple prompt strategies for challenging tasks
+1. **Оптимізація промптів для конкретних задач чи доменів:** підвищує точність у цільових сценаріях.
+2. **Покращення продуктивності моделі в різних застосуваннях:** генерує ефективніші промпти для різноманітних випадків.
+3. **Створення кількох підходів до складних проблем:** продукує різні стратегій промптингу для викликів.
 
 </details>
 
-### Example Structure
+### Приклад структури
 
 ```markdown
-Task: Generate an engaging writing prompt for a short story
+Завдання: Створити захопливий промпт для короткого оповідання
 
-APE Process:
-1. Generate Prompts:
-   - "Write a story about a mysterious object found in an attic"
-   - "Describe a character's first day in a new, unusual job"
-   - "Narrate an unexpected encounter between two strangers on a train"
+Процес APE:
+1. Генерація промптів:
+   - "Напиши історію про загадковий предмет, знайдений на горищі"
+   - "Опиши перший день персонажа на незвичній роботі"
+   - "Розкажи про неочікувану зустріч двох незнайомців у поїзді"
 
-2. Evaluate Prompts:
-   Criteria: Creativity, potential for character development, plot intrigue
-   Scores: [Hypothetical scores for each prompt]
+2. Оцінювання промптів:
+   Критерії: креативність, потенціал для розвитку персонажів, інтрига сюжету
+   Оцінки: [гіпотетичні результати для кожного промпту]
 
-3. Optimize:
-   Refined prompt: "Write a story about two strangers who discover a mysterious object in an attic during their first day at an unusual job"
+3. Оптимізація:
+   Уточнений промпт: "Напиши історію про двох незнайомців, які знаходять загадковий предмет на горищі під час свого першого дня на незвичній роботі"
 ```
 
-### Examples of Automatic Prompt Engineer (APE)
+### Приклади Automatic Prompt Engineer (APE)
 
 <details>
-<summary>Example 1: Developing Optimal Interview Questions</summary>
+<summary>Приклад 1: Розробка оптимальних питань для співбесіди</summary>
 
 ```markdown
-Use APE to create an effective set of interview questions for hiring software engineers:
+Використайте APE, щоб створити ефективний набір питань для найму розробників ПЗ:
 
-1. Initial generation:
-   - Utilize the question categories: Technical Depth, Problem Solving, and Cultural Fit
-   - Generate multiple sets of questions, each containing one question per category
+1. Початкова генерація:
+   - Використайте категорії: технічна глибина, розв’язання проблем, відповідність культурі
+   - Згенеруйте кілька наборів, де кожен містить по одному питанню з категорії
 
-2. Evaluation:
-   Assess each question set based on:
-   - Technical depth (e.g., OOP concepts, design patterns)
-   - Problem-solving approach (e.g., algorithmic thinking, creative solutions)
-   - Cultural fit alignment (e.g., teamwork, communication skills)
+2. Оцінювання:
+   Оцініть кожен набір за такими параметрами:
+   - Технічна глибина (наприклад, ООП, патерни проєктування)
+   - Підхід до розв’язання проблем (алгоритмічне мислення, креативність)
+   - Культурна відповідність (робота в команді, комунікація)
 
-3. Refinement:
-   - Analyze high-performing questions and identify common characteristics
-   - Generate new questions that incorporate these successful elements
+3. Удосконалення:
+   - Проаналізуйте найуспішніші питання та виділіть спільні риси
+   - Згенеруйте нові питання з урахуванням цих елементів
 
-4. Testing:
-   - Conduct mock interviews using the refined question sets
-   - Gather feedback from both interviewers and interviewees
+4. Тестування:
+   - Проведіть пробні інтерв’ю з оновленими наборами
+   - Зберіть відгуки як від інтерв’юерів, так і від кандидатів
 
-5. Iteration:
-   - Use machine learning algorithms to analyze interview outcomes
-   - Continuously update the question pool based on performance metrics
-   - Periodically introduce new questions to maintain relevance and prevent overfitting
-```
-
-</details>
-
-<details>
-<summary>Example 2: Creating Personalized Daily Affirmations</summary>
-
-```markdown
-Apply APE to develop personalized daily affirmations:
-
-1. Initial generation:
-   - Create a diverse pool of affirmations addressing common themes (e.g., capability, resilience, growth)
-   - Generate personalized affirmations by combining general statements with specific user goals
-
-2. Evaluation:
-   Assess each affirmation based on:
-   - Alignment with user's goals and personality
-   - Positivity and empowerment level
-   - Clarity and memorability
-
-3. Refinement:
-   - Analyze high-impact affirmations and identify effective patterns
-   - Generate new affirmations that incorporate these successful elements
-   - Tailor affirmations to address user's specific goals (e.g., productivity, skill improvement)
-
-4. Testing:
-   - Present refined affirmations to users for a trial period
-   - Gather user feedback on perceived effectiveness and emotional response
-
-5. Optimization:
-   - Employ machine learning algorithms to analyze user engagement and reported mood changes
-   - Continuously update the affirmation pool based on user response and effectiveness
-   - Implement a system for dynamically adjusting affirmations based on user's evolving goals and preferences
+5. Ітерації:
+   - Застосуйте алгоритми ML для аналізу результатів співбесід
+   - Постійно оновлюйте пул питань на основі показників ефективності
+   - Періодично додавайте нові питання, щоб підтримувати актуальність і уникати шаблонності
 ```
 
 </details>
 
 <details>
-<summary>Example 3: Developing Creative Writing Prompts</summary>
+<summary>Приклад 2: Персоналізовані щоденні афірмації</summary>
 
 ```markdown
-Use APE to create optimal prompts for generating creative writing ideas:
+Застосуйте APE для створення персоналізованих афірмацій:
 
-1. Initial generation:
-   - Create a diverse pool of writing prompts covering various themes and genres
-   - Generate multiple sets of prompts, ensuring variety in story elements (e.g., characters, settings, conflicts)
+1. Початкова генерація:
+   - Створіть різноманітний набір афірмацій за темами (можливості, стійкість, зростання)
+   - Згенеруйте персоналізовані версії, поєднавши загальні твердження з конкретними цілями користувача
 
-2. Evaluation:
-   Assess each prompt based on:
-   - Originality and uniqueness
-   - Potential for character development
-   - Flexibility for various writing styles
+2. Оцінювання:
+   Оцініть кожну афірмацію за такими критеріями:
+   - Відповідність цілям і характеру користувача
+   - Рівень позитиву й натхнення
+   - Зрозумілість і запам’ятовуваність
 
-3. Refinement:
-   - Analyze high-scoring prompts and identify common successful elements
-   - Generate new prompts that incorporate these effective features
-   - Combine elements from different successful prompts to create hybrid versions
+3. Удосконалення:
+   - Проаналізуйте найдієвіші афірмації й визначте успішні патерни
+   - Створіть нові твердження на основі цих патернів
+   - Налаштуйте афірмації під конкретні цілі (продуктивність, розвиток навичок тощо)
 
-4. Testing:
-   - Present refined prompts to a sample audience of writers
-   - Collect feedback on inspiration level, ease of use, and story potential
+4. Тестування:
+   - Надішліть удосконалені афірмації користувачам на пробний період
+   - Зберіть відгуки про ефективність та емоційний відгук
 
-5. Iteration:
-   - Use natural language processing to analyze stories generated from the prompts
-   - Continuously update the prompt pool based on engagement metrics and story quality
-   - Periodically introduce entirely new prompt types to maintain freshness and challenge writers
+5. Оптимізація:
+   - Використайте ML для аналізу залученості й змін настрою
+   - Постійно оновлюйте пул афірмацій за результатами
+   - Реалізуйте систему динамічного підлаштування афірмацій під змінні цілі та вподобання
 ```
 
 </details>
 
 <details>
-<summary>Example 4: Explaining Scientific Concepts to Children</summary>
+<summary>Приклад 3: Розробка креативних писемних промптів</summary>
 
 ```markdown
-Employ APE to create ideal prompts for explaining complex scientific concepts to children:
+Скористайтеся APE, щоб створити оптимальні промпти для генерування ідей історій:
 
-1. Initial generation:
-   - Develop a range of prompts for explaining various scientific concepts
-   - Create multiple versions of each explanation, varying in complexity and approach
+1. Початкова генерація:
+   - Створіть різноманітний пул промптів різних тем і жанрів
+   - Згенеруйте кілька наборів, щоб урізноманітнити персонажів, сетинги й конфлікти
 
-2. Evaluation:
-   Assess each prompt based on:
-   - Clarity and simplicity of explanation
-   - Use of relatable examples or analogies
-   - Engagement factor for children
+2. Оцінювання:
+   Оцініть кожен промпт за такими критеріями:
+   - Оригінальність
+   - Потенціал для розвитку персонажів
+   - Гнучкість для різних стилів письма
 
-3. Refinement:
-   - Analyze top-performing prompts and identify effective communication strategies
-   - Generate new prompts that incorporate these successful elements
-   - Adapt prompts to include relatable examples and analogies for children
+3. Удосконалення:
+   - Проаналізуйте промпти з найвищими оцінками та визначте спільні успішні елементи
+   - Створіть нові промпти, що включають ці елементи
+   - Комбінуйте частини різних вдалих промптів, створюючи гібриди
 
-4. Testing:
-   - Present refined prompts to a diverse group of children
-   - Gather feedback through comprehension tests and engagement metrics
+4. Тестування:
+   - Запропонуйте відбірні промпти групі авторів
+   - Зберіть відгуки щодо натхнення, зручності та потенціалу сюжету
 
-5. Optimization:
-   - Use machine learning to analyze children's responses and learning outcomes
-   - Continuously update the prompt pool based on effectiveness and retention rates
-   - Implement a system for dynamically adjusting explanations based on individual child's age, interests, and prior knowledge
+5. Ітерації:
+   - Використайте NLP для аналізу історій, написаних за промптами
+   - Постійно оновлюйте пул на основі метрик залученості й якості текстів
+   - Час від часу вводьте абсолютно нові типи промптів для свіжості та виклику
 ```
 
 </details>
 
-## 💡 Pro Tips for Effective Automatic Prompt Engineer (APE)
+<details>
+<summary>Приклад 4: Пояснення наукових концепцій дітям</summary>
 
-1. **Define clear evaluation criteria:** Establish specific metrics for assessing prompt quality and effectiveness.
-2. **Maintain diversity:** Ensure a wide range of prompt types and styles to cater to different tasks and user preferences.
-3. **Implement continuous learning:** Regularly update the APE system based on real-world performance and user feedback.
-4. **Balance automation and human oversight:** While APE automates much of the process, human review can catch nuances that machines might miss.
-5. **Consider context and user characteristics:** Tailor prompts to specific user groups, tasks, or domains for better results.
-6. **Iterate frequently:** Continuously refine and test prompts to improve their effectiveness over time.
-7. **Monitor for biases:** Regularly check for and address any biases that may emerge in the generated prompts.
+```markdown
+Використайте APE, щоб створити ідеальні промпти для пояснення складних наукових концепцій дітям:
+
+1. Початкова генерація:
+   - Підготуйте різноманітні промпти для пояснення наукових тем
+   - Створіть кілька версій кожного пояснення з різним рівнем складності
+
+2. Оцінювання:
+   Оцініть кожен промпт за такими параметрами:
+   - Чіткість і простота викладу
+   - Використання зрозумілих прикладів та аналогій
+   - Ступінь залучення дітей
+
+3. Удосконалення:
+   - Проаналізуйте найуспішніші промпти та виділіть ефективні стратегії
+   - Згенеруйте нові промпти з урахуванням цих підходів
+   - Додайте приклади та аналогії, релевантні дітям
+
+4. Тестування:
+   - Представте удосконалені промпти різновіковій групі дітей
+   - Зберіть зворотний зв’язок через тести на розуміння й показники зацікавленості
+
+5. Оптимізація:
+   - Використайте ML для аналізу відповідей та навчальних результатів
+   - Постійно оновлюйте пул промптів, орієнтуючись на ефективність і запам’ятовуваність
+   - Реалізуйте систему динамічного підлаштування пояснень за віком, інтересами та попередніми знаннями
+```
+
+</details>
+
+## 💡 Поради щодо ефективного Automatic Prompt Engineer (APE)
+
+1. **Визначайте чіткі критерії оцінювання:** задайте конкретні метрики якості та результативності промптів.
+2. **Зберігайте різноманітність:** підтримуйте широкий спектр типів і стилів промптів для різних задач і користувачів.
+3. **Запроваджуйте безперервне навчання:** регулярно оновлюйте систему за реальними даними та відгуками.
+4. **Баланс автоматизації та контролю:** попри автоматизацію, людська перевірка допоможе врахувати нюанси.
+5. **Ураховуйте контекст і аудиторію:** адаптуйте промпти під конкретні групи користувачів чи домени.
+6. **Ітеруйте часто:** постійно вдосконалюйте й тестуйте промпти для підвищення ефективності.
+7. **Слідкуйте за упередженнями:** регулярно перевіряйте та усувайте потенційні упередження у згенерованих промптах.
 
 ---
 
 <details>
-<summary>📝 Practice Exercise: Designing an APE System</summary>
+<summary>📝 Практичне завдання: проєктування системи APE</summary>
 
-1. Choose a specific task or domain for which you want to generate optimized prompts (e.g., language learning exercises, customer service chatbot responses, or product description generation).
+1. Оберіть конкретне завдання чи домен, для якого хочете згенерувати оптимальні промпти (наприклад, вправи з вивчення мов, відповіді чат-бота підтримки, описи товарів).
 
-2. Define the goals of your APE system and list 3-5 key criteria for evaluating prompt effectiveness in your chosen domain.
+2. Сформулюйте цілі системи APE та визначте 3–5 ключових критеріїв оцінки ефективності промптів у вибраній сфері.
 
-3. Outline the main components of your APE system:
-   a. Prompt generation module: Describe how it will create initial prompts
-   b. Evaluation module: Explain how it will assess prompt quality based on your criteria
-   c. Refinement module: Describe how it will improve prompts based on evaluation results
-   d. Testing and feedback module: Explain how you'll gather and incorporate real-world performance data
+3. Опишіть основні компоненти системи APE:
+   a. Модуль генерації промптів: як створюватимуться первинні варіанти
+   b. Модуль оцінювання: як оцінюватиметься якість за вашими критеріями
+   c. Модуль удосконалення: як система покращуватиме промпти на основі оцінок
+   d. Модуль тестування та фідбеку: як збиратиметься та враховуватиметься реальна ефективність
 
-4. Create a sample set of 5-10 initial prompts that your system might generate for your chosen task.
+4. Створіть зразок із 5–10 промптів, які система може згенерувати для обраного завдання.
 
-5. Develop a simple scoring system for your evaluation criteria and demonstrate how you would score your sample prompts.
+5. Розробіть просту шкалу оцінювання та покажіть, як би ви оцінили зразки промптів.
 
-6. Describe the refinement process: How would your system improve low-scoring prompts or combine elements of high-scoring ones?
+6. Опишіть процес удосконалення: як система покращуватиме промпти з низькими оцінками або комбінуватиме елементи найкращих.
 
-7. Outline a plan for testing refined prompts and collecting user feedback.
+7. Намалюйте план тестування та збору відгуків від користувачів.
 
 </details>
