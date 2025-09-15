@@ -1,162 +1,162 @@
 ## 🏗️ Least-to-Most Prompting
 
-Least-to-Most Prompting is a technique that breaks down complex problems into simpler, manageable sub-problems. These sub-problems are then solved in order of increasing difficulty, allowing for a gradual approach to complex tasks. This method helps in tackling overwhelming problems by building understanding and confidence step by step.
+Least-to-Most Prompting — це техніка, яка розбиває складні проблеми на простіші, керовані підзадачі. Ці підзадачі розв’язуються у порядку зростання складності, що дозволяє поступово підійти до глобальної проблеми. Метод допомагає подолати відчуття перевантаженості, формуючи розуміння й упевненість крок за кроком.
 
-### Use Cases
+### Сфери застосування
 
 <details>
-<summary>Click to expand use cases</summary>
+<summary>Натисніть, щоб переглянути приклади застосування</summary>
 
-1. **Teaching complex concepts:** Helps learners grasp difficult ideas by starting with basics
-2. **Troubleshooting intricate systems:** Allows for systematic problem-solving in complex environments
-3. **Tackling overwhelming projects or tasks:** Makes large tasks more manageable by breaking them into smaller steps
+1. **Навчання складних концепцій:** дає змогу почати з базових ідей і поступово ускладнювати.
+2. **Діагностика складних систем:** забезпечує системний підхід до пошуку проблем.
+3. **Опрацювання масштабних проєктів:** допомагає розділити великі завдання на послідовні кроки.
 
 </details>
 
-### Example Structure
+### Приклад структури
 
 ```markdown
-When using Least-to-Most Prompting, structure your approach like this:
-Task: "Write a short story"
+Використовуючи Least-to-Most Prompting, побудуйте роботу так:
+Завдання: "Написати коротке оповідання"
 
-Approach:
-1. Brainstorm a simple plot idea
-2. Create basic character outlines
-3. Write a brief opening paragraph
-4. Develop the main conflict
-5. Write the story's climax
-6. Conclude the story
-7. Edit and refine the final draft
+Послідовність:
+1. Придумати просту ідею сюжету
+2. Створити базові описи персонажів
+3. Написати короткий вступний абзац
+4. Розвинути головний конфлікт
+5. Сформувати кульмінацію
+6. Завершити історію
+7. Відредагувати й допрацювати фінальний текст
 ```
 
-### Examples of Least-to-Most Prompting
+### Приклади застосування Least-to-Most Prompting
 
 <details>
-<summary>Example 1: Software Development Onboarding</summary>
+<summary>Приклад 1: Адаптація новачка в розробці ПЗ</summary>
 
 ```markdown
-Implement Least-to-Most Prompting to onboard a new employee into our software development process:
-1. Introduce basic version control concepts and tools (e.g., Git basics)
-2. Guide through setting up the development environment and running a simple "Hello World" application
-3. Assign small bug fixes or minor feature enhancements in a single module
-4. Introduce code review processes and have them participate in peer reviews
-5. Assign development of a complete feature, including planning and testing
-6. Introduce agile methodologies and have them participate in sprint planning and retrospectives
-7. Guide them through leading a small project, including resource allocation and timeline management
-8. Involve them in architectural decisions and long-term product strategy discussions
-```
-
-</details>
-
-<details>
-<summary>Example 2: Language Learning</summary>
-
-```markdown
-Apply Least-to-Most Prompting to master a new language:
-1. Start with essential greetings and numbers
-2. Introduce basic nouns and verbs for everyday objects and actions
-3. Teach simple sentence structures (subject-verb-object)
-4. Guide through conjugating verbs in present tense
-5. Introduce adjectives and adverbs to describe things and actions
-6. Teach how to ask and answer common questions
-7. Introduce past and future tenses
-8. Guide through reading simple texts and writing short paragraphs
-9. Engage in role-playing exercises for common scenarios (e.g., ordering food, asking for directions)
-10. Introduce idiomatic expressions and cultural nuances
-11. Encourage watching movies or TV shows in the target language with subtitles
-12. Guide through writing essays and engaging in debates on complex topics
+Використайте Least-to-Most Prompting для онбордингу нового розробника:
+1. Ознайомте з базовими поняттями та інструментами контролю версій (наприклад, основи Git)
+2. Проведіть налаштування середовища й запуск простого застосунку "Hello World"
+3. Доручіть виправлення невеликих багів або дрібні поліпшення в одному модулі
+4. Ознайомте з процесом code review і залучіть до взаємної перевірки коду
+5. Доручіть розробку повноцінної функції, включно з плануванням і тестуванням
+6. Представте agile-методологію та залучіть до планування спринтів і ретроспектив
+7. Проведіть через керування невеликим проєктом, включно з плануванням ресурсів і таймлайном
+8. Підключіть до обговорень архітектури та довгострокової продуктовой стратегії
 ```
 
 </details>
 
 <details>
-<summary>Example 3: Financial Literacy Development</summary>
+<summary>Приклад 2: Вивчення іноземної мови</summary>
 
 ```markdown
-Use Least-to-Most Prompting to develop financial literacy skills:
-1. Explain basic concepts of income and expenses
-2. Introduce the importance of saving and compound interest
-3. Guide through creating a simple personal budget
-4. Teach how to read and understand a bank statement
-5. Introduce the concept of credit and how credit scores work
-6. Explain different types of loans and their implications
-7. Guide through the process of filing a basic tax return
-8. Introduce investment concepts (stocks, bonds, mutual funds)
-9. Teach how to analyze financial news and reports
-10. Guide through creating a comprehensive financial plan, including retirement savings
-11. Introduce advanced investment strategies and portfolio management
-12. Explain complex financial instruments and market dynamics
+Застосуйте Least-to-Most Prompting, щоб опанувати нову мову:
+1. Почніть із базових привітань і числівників
+2. Вивчіть найуживаніші іменники та дієслова для повсякденних ситуацій
+3. Освойте прості речення (підмет-дієслово-додаток)
+4. Розгляньте відмінювання дієслів у теперішньому часі
+5. Додайте прикметники та прислівники для описів
+6. Навчіться ставити й відповідати на поширені питання
+7. Вивчіть минулий і майбутній час
+8. Тренуйте читання простих текстів і написання коротких абзаців
+9. Виконуйте рольові діалоги для типових ситуацій (замовлення їжі, дорога)
+10. Опануйте ідіоматичні вирази та культурні особливості
+11. Дивіться фільми чи серіали мовою оригіналу з субтитрами
+12. Пишіть есе та дискутуйте на складні теми
 ```
 
 </details>
 
 <details>
-<summary>Example 4: Public Speaking Skills Development</summary>
+<summary>Приклад 3: Розвиток фінансової грамотності</summary>
 
 ```markdown
-Apply Least-to-Most Prompting to develop public speaking skills:
-1. Start with breathing exercises and vocal warm-ups
-2. Guide through writing a simple self-introduction
-3. Teach basic body language and eye contact techniques
-4. Introduce the structure of a short speech (opening, body, conclusion)
-5. Guide through creating and using simple visual aids
-6. Teach techniques for managing nervousness and stage fright
-7. Introduce methods for engaging the audience (questions, anecdotes)
-8. Guide through impromptu speaking exercises on familiar topics
-9. Teach advanced rhetorical devices (metaphors, analogies, etc.)
-10. Introduce techniques for handling Q&A sessions
-11. Guide through preparing and delivering a TED-style talk
-12. Teach strategies for adapting to different audience types and venues
+Застосуйте Least-to-Most Prompting для розвитку фінансових навичок:
+1. Поясніть базові поняття доходів і витрат
+2. Розкажіть про важливість заощаджень і складних відсотків
+3. Складіть простий персональний бюджет
+4. Навчіть читати й аналізувати банківську виписку
+5. Ознайомте з поняттям кредиту та кредитних рейтингів
+6. Поясніть види позик і їхні наслідки
+7. Розгляньте процес заповнення базової податкової декларації
+8. Запровадьте інвестиційні поняття (акції, облігації, фонди)
+9. Навчіть аналізувати фінансові новини та звіти
+10. Складіть комплексний фінансовий план, включно з пенсійними заощадженнями
+11. Розгляньте розширені інвестиційні стратегії та управління портфелем
+12. Поясніть складні фінансові інструменти та динаміку ринку
 ```
 
 </details>
 
 <details>
-<summary>Example 5: Guide to Creating a Simple Webpage</summary>
+<summary>Приклад 4: Розвиток ораторських навичок</summary>
 
 ```markdown
-Apply Least-to-Most Prompting to develop public speaking skills:
-1. Explain what HTML, CSS, and JavaScript are
-2. Teach how to set up a basic HTML structure
-3. Introduce simple CSS styling
-4. Show how to add basic interactivity with JavaScript
-5. Guide through publishing the website
+Використайте Least-to-Most Prompting для вдосконалення публічних виступів:
+1. Почніть із дихальних вправ і голосових розігрівів
+2. Напишіть коротке самопрезентаційне звернення
+3. Освойте базову мову тіла та контакт очима
+4. Ознайомтеся зі структурою короткого виступу (вступ, основна частина, висновок)
+5. Створіть та використайте прості візуальні матеріали
+6. Навчіться долати хвилювання та страх сцени
+7. Опануйте способи залучення аудиторії (запитання, історії)
+8. Практикуйте імпровізовані виступи на знайомі теми
+9. Вивчіть складні риторичні прийоми (метафори, аналогії тощо)
+10. Опануйте техніки роботи з блоком питань-відповідей
+11. Підготуйте та проведіть виступ у стилі TED
+12. Навчіться адаптуватися до різних типів аудиторій і майданчиків
 ```
 
 </details>
 
-## 💡 Pro Tips for Effective Least-to-Most Prompting
+<details>
+<summary>Приклад 5: Створення простої вебсторінки</summary>
 
-1. **Start simple:** Begin with the most basic concepts or tasks to build confidence and understanding.
-2. **Gradual progression:** Increase complexity slowly, ensuring mastery at each level before moving on.
-3. **Provide context:** Explain how each step contributes to the overall goal to maintain motivation.
-4. **Encourage practice:** Allow time for repetition and application of skills at each level.
-5. **Offer feedback:** Provide constructive feedback throughout the process to guide improvement.
-6. **Be flexible:** Adjust the pace or order of steps based on individual progress and needs.
-7. **Connect the dots:** Regularly recap how the current step relates to previous and future steps.
+```markdown
+Застосуйте Least-to-Most Prompting для створення простої вебсторінки:
+1. Поясніть, що таке HTML, CSS і JavaScript
+2. Навчіть створювати базову HTML-структуру
+3. Ознайомте з простими стилями CSS
+4. Покажіть, як додати базову інтерактивність на JavaScript
+5. Проведіть через публікацію сайту
+```
+
+</details>
+
+## 💡 Поради щодо ефективного Least-to-Most Prompting
+
+1. **Починайте з простого:** стартуйте з базових понять, щоб закласти впевненість.
+2. **Поступове ускладнення:** підвищуйте складність тільки після засвоєння попереднього кроку.
+3. **Давайте контекст:** пояснюйте, як кожен крок наближає до мети.
+4. **Заохочуйте практику:** виділяйте час на повторення та застосування навичок.
+5. **Надавайте зворотний зв’язок:** допомагайте коригувати дії на кожному етапі.
+6. **Будьте гнучкими:** адаптуйте темп чи послідовність відповідно до прогресу.
+7. **Пов’язуйте кроки:** регулярно підкреслюйте зв’язок між попередніми, поточними та майбутніми етапами.
 
 ---
 
 <details>
-<summary>📝 Practice Exercise: Designing a Least-to-Most Learning Path</summary>
+<summary>📝 Практичне завдання: проєктування навчального шляху Least-to-Most</summary>
 
-In this exercise, design a Least-to-Most Prompting learning path for a complex skill or concept. Follow these steps to create your learning path:
+Створіть навчальний шлях за принципом Least-to-Most для складної навички чи концепції. Дотримуйтеся таких кроків:
 
-1. Choose a complex skill or concept you'd like to teach (e.g., data science, creative writing, project management, etc.).
+1. Оберіть складну навичку або концепцію (наприклад, дата-сайєнс, творче письмо, управління проєктами).
 
-2. Break down the skill into 10-15 sub-skills or concepts, arranged from least to most complex.
+2. Розбийте її на 10–15 піднавичок або тем, розташованих від найпростішої до найскладнішої.
 
-3. For each sub-skill or concept:
-   a. Write a brief description of what will be learned.
-   b. Outline a simple exercise or task to practice this sub-skill.
-   c. Explain how this step builds on previous steps and prepares for future ones.
+3. Для кожної піднавички:
+   a. Опишіть, що саме буде вивчено.
+   b. Запропонуйте просту вправу чи завдання для практики.
+   c. Поясніть, як цей крок спирається на попередні й готує до наступних.
 
-4. Design a final project or assessment that incorporates all the sub-skills learned.
+4. Спроєктуйте фінальний проєкт або оцінювання, що об’єднує всі навички.
 
-5. Consider potential challenges learners might face at each step and suggest ways to overcome them.
+5. Продумайте потенційні труднощі на кожному етапі та способи їх подолання.
 
-6. Identify key milestones in your learning path where progress should be assessed before moving forward.
+6. Визначте ключові контрольні точки, де варто перевіряти прогрес перед переходом далі.
 
-7. Reflect on how you would adapt this learning path for different types of learners (e.g., visual learners, hands-on learners, etc.).
+7. Поміркуйте, як адаптувати шлях для різних типів учнів (візуальних, практиків тощо).
 
 </details>

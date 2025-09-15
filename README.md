@@ -1,22 +1,22 @@
-# 📚 A Beginner's Guide to Prompt Engineering
+# 📚 Посібник для початківців з промпт-інжинірингу
 
-## 1. 💬 Introduction to Prompt Engineering
+## 1. 💬 Вступ до промпт-інжинірингу
 
-Prompt Engineering is the art and science of crafting effective inputs for Large Language Models (LLMs) to produce desired outputs. It's a crucial skill in GenAI-related tasks, allowing users to harness the full potential of LLMs for various applications.
+Промпт-інжиніринг — це мистецтво й наука створення ефективних вхідних даних для великих мовних моделей (LLM), щоб отримати бажані результати. Це ключова навичка в завданнях, пов'язаних з генеративним ШІ, яка дозволяє користувачам максимально розкрити потенціал LLM у різноманітних застосуваннях.
 
-## 2. 📚 How to Use This Guide
+## 2. 📚 Як користуватися цим посібником
 
 <details>
-<summary>Click to learn how to use this guide effectively</summary>
+<summary>Натисніть, щоб дізнатися, як ефективно користуватися цим посібником</summary>
 
 
-Follow these steps to make the most of this comprehensive prompt engineering guide:
+Скористайтеся цими кроками, щоб отримати максимум від цього всеосяжного посібника з промпт-інжинірингу:
 
-1. 📖 **Understand the Basics**: Start with the introduction and fundamentals sections to grasp the core concepts of prompt engineering.
-2. 🧠 **Explore Techniques**: Dive into each prompt technique, understanding its explanation, key points, and advantages.
-3. 👀 **Study Examples**: For each technique, examine the provided user input and AI output examples to see how they work in practice.
-4. 💼 **Apply to Work**: Use the work-related example for each technique to understand its professional applications.
-5. 🏠 **Try in Daily Life**: Experiment with the lifestyle example to see how each technique can be used in personal scenarios.
-6. 🛠️ **Practice and Refine**: Start crafting your own prompts using the templates and examples provided, iterating and improving as you go.
+1. 📖 **Зрозумійте основи**: почніть із розділів вступу та фундаментальних концепцій, щоб опанувати базові принципи промпт-інжинірингу.
+2. 🧠 **Досліджуйте техніки**: вивчіть кожну техніку промптингу, звертаючи увагу на її пояснення, ключові моменти та переваги.
+3. 👀 **Розгляньте приклади**: для кожної техніки перегляньте наведені приклади користувацьких запитів та відповідей ШІ, щоб побачити, як вони працюють на практиці.
+4. 💼 **Застосовуйте в роботі**: використовуйте приклад із робочого середовища для кожної техніки, щоб зрозуміти її професійні застосування.
+5. 🏠 **Випробовуйте в повсякденному житті**: експериментуйте з прикладом для стилю життя, щоб побачити, як кожну техніку можна використати в особистих ситуаціях.
+6. 🛠️ **Практикуйте та вдосконалюйте**: почніть створювати власні промпти за допомогою наданих шаблонів і прикладів, постійно ітеративно покращуючи їх.
 
 </details>

@@ -1,169 +1,169 @@
 # 🌳 Tree of Thoughts (ToT)
 
-Tree of Thoughts (ToT) is an advanced prompting technique that explores multiple reasoning paths simultaneously, creating a tree-like structure of potential solution paths. This method allows for a more comprehensive exploration of problem spaces, enabling the model to consider various alternatives before arriving at a final solution. ToT is particularly useful for complex problems where multiple approaches might be viable.
+Tree of Thoughts (ToT) — це просунута техніка промптингу, яка досліджує кілька шляхів міркування одночасно, формуючи «дерево» можливих варіантів. Такий підхід дозволяє всебічніше вивчити простір рішень і розглянути різні альтернативи перед остаточним висновком. ToT особливо корисний для складних задач, де може існувати кілька життєздатних підходів.
 
-## Use Cases
+## Сфери застосування
 
-- **Complex decision-making scenarios**: Helps in evaluating multiple options and their potential outcomes
-- **Strategic planning**: Allows for the exploration of various strategies and their long-term implications
-- **Creative problem-solving with multiple viable options**: Facilitates the generation and evaluation of diverse solutions
+- **Складні сценарії прийняття рішень:** допомагає оцінити кілька варіантів та їх наслідки.
+- **Стратегічне планування:** дозволяє дослідити різні стратегії та їх довгострокові ефекти.
+- **Творче розв’язання задач із багатьма можливими рішеннями:** підтримує генерування й оцінку різноманітних ідей.
 
-## Example Structure
+## Приклад структури
 
-When using Tree of Thoughts, structure your prompt to explore multiple paths:
+Працюючи з Tree of Thoughts, побудуйте промпт так, щоб дослідити кілька гілок:
 
 <details>
-<summary>Click to expand</summary>
+<summary>Натисніть, щоб переглянути приклад</summary>
 
 ```
-Task: "Choose a new hobby to pursue"
-Prompt: "Help me choose a new hobby by exploring three options: painting, gardening, and learning a musical instrument. Consider the pros and cons of each, then recommend the best option."
+Завдання: "Обрати нове хобі"
+Промпт: "Допоможи мені обрати нове хобі, розглянувши три варіанти: малювання, садівництво та навчання грі на музичному інструменті. Оціни плюси й мінуси кожного та порадь найкраще".
 
-Output:
-"Let's explore these options using a tree of thoughts:
+Вихід:
+"Розгляньмо варіанти, використовуючи дерево думок:
 
-1. Painting
-   Pros:
-   - Allows for creative expression
-   - Can be done indoors
-   - Relatively low initial cost
-   Cons:
-   - Requires dedicated space for supplies and workspace
-   - May take time to develop skills
+1. Малювання
+   Переваги:
+   - Розвиває творче самовираження
+   - Можна займатися в приміщенні
+   - Відносно невеликі стартові витрати
+   Недоліки:
+   - Потрібне місце для матеріалів і роботи
+   - Навички розвиваються з часом
 
-2. Gardening
-   Pros:
-   - Provides fresh produce or beautiful flowers
-   - Offers physical activity and time outdoors
-   - Can be relaxing and stress-reducing
-   Cons:
-   - Requires outdoor space
-   - Seasonal limitations in some climates
-   - Ongoing maintenance required
+2. Садівництво
+   Переваги:
+   - Дає свіжі продукти або квіти
+   - Забезпечує фізичну активність і час на свіжому повітрі
+   - Знижує рівень стресу
+   Недоліки:
+   - Потрібен відкритий простір
+   - Залежить від сезону
+   - Потребує постійного догляду
 
-3. Learning a Musical Instrument
-   Pros:
-   - Develops a lifelong skill
-   - Improves cognitive function and coordination
-   - Can be social through playing with others
-   Cons:
-   - Instruments can be expensive
-   - Requires consistent practice
-   - May disturb neighbors during practice
+3. Музичний інструмент
+   Переваги:
+   - Формує довготривалу навичку
+   - Покращує когнітивні функції та координацію
+   - Може стати соціальною активністю
+   Недоліки:
+   - Інструменти можуть бути дорогими
+   - Потрібна регулярна практика
+   - Під час занять можна заважати сусідам
 
-Evaluation:
-Considering the pros and cons, learning a musical instrument seems to offer the most long-term benefits and versatility. It provides cognitive benefits, can be social, and is not limited by seasons or space constraints.
+Оцінювання:
+Зважаючи на переваги й недоліки, навчання грі на інструменті дає найбільше довгострокових переваг та гнучкості. Воно забезпечує когнітивні бонуси, може бути соціальним і не залежить від сезону чи простору.
 
-Recommendation:
-I recommend pursuing learning a musical instrument as your new hobby. It offers a good balance of personal growth, potential for social interaction, and long-term enjoyment. Start with an instrument that interests you and fits your living situation, such as a guitar or keyboard."
+Рекомендація:
+Раджу обрати навчання грі на музичному інструменті. Це поєднання особистісного розвитку, можливості спілкування й довготривалого задоволення. Почніть із інструменту, який вам подобається та підходить за умов проживання, наприклад, гітари чи синтезатора".
 ```
 
 </details>
 
-## General ToT Structure
+## Загальна структура ToT
 
 ```markdown
-Let's explore multiple approaches:
+Дослідимо кілька підходів:
 
-Path A:
-- [First step]
-- [Second step]
+Гілка A:
+- [Крок 1]
+- [Крок 2]
 ...
 
-Path B:
-- [First step]
-- [Second step]
+Гілка B:
+- [Крок 1]
+- [Крок 2]
 ...
 
-Evaluation: [Compare paths and choose the best]
+Оцінювання: [Порівняйте гілки та оберіть найкращу]
 ```
 
-## Application Examples
+## Приклади застосування
 
 <details>
-<summary><strong>Marketing Strategy</strong></summary>
+<summary><strong>Маркетингова стратегія</strong></summary>
 
 ```markdown
-Utilize the Tree of Thoughts method to craft a comprehensive marketing strategy for our new product launch. Begin with three main branches:
+Застосуйте Tree of Thoughts, щоб створити комплексну маркетингову стратегію для запуску нового продукту. Почніть із трьох гілок:
 
-1. Digital marketing
-2. Traditional advertising
-3. Influencer partnerships
+1. Діджитал-маркетинг
+2. Традиційна реклама
+3. Співпраця з інфлюенсерами
 
-For each branch:
-- Identify 3-5 specific tactics or channels
-- Analyze the potential reach and engagement for each tactic
-- Estimate the required budget and resources
-- Project the potential ROI based on industry benchmarks
-- Consider how each tactic aligns with different target demographics
+Для кожної гілки:
+- Визначте 3–5 тактик або каналів
+- Оцініть потенційний охоплення та залучення
+- Оцініть бюджет і потрібні ресурси
+- Прогнозуйте очікуваний ROI за галузевими бенчмарками
+- Врахуйте відповідність різним сегментам аудиторії
 
-After exploring these branches, synthesize the most promising elements into an integrated strategy, accounting for budget constraints and potential synergies between tactics.
+Після дослідження синтезуйте найперспективніші елементи в інтегровану стратегію з урахуванням бюджету й можливих синергій.
 ```
 
 </details>
 
 <details>
-<summary><strong>Career Development</strong></summary>
+<summary><strong>Розвиток кар’єри</strong></summary>
 
 ```markdown
-Employ the Tree of Thoughts approach to map out your career development over the next five years. Start with three primary paths:
+Застосуйте Tree of Thoughts для планування кар’єрного розвитку на п’ять років. Розгляньте три основні гілки:
 
-1. Further education
-2. Changing industries
-3. Starting your own business
+1. Подальша освіта
+2. Зміна галузі
+3. Власний бізнес
 
-For each path:
-- Identify specific steps or milestones to achieve within the five-year timeframe
-- Analyze potential challenges and opportunities
-- Consider the impact on work-life balance and personal goals
-- Evaluate the financial implications, including potential earnings and required investments
-- Assess the long-term career prospects beyond the five-year mark
+Для кожної гілки:
+- Сформулюйте кроки чи етапи на п’ятирічний період
+- Проаналізуйте виклики та можливості
+- Оцініть вплив на баланс «робота-життя» та особисті цілі
+- Розрахуйте фінансові наслідки (доходи, інвестиції)
+- Оцініть довгострокові перспективи після п’яти років
 
-After exploring these paths, create a decision matrix to compare them based on personal values, risk tolerance, and long-term aspirations.
+Після аналізу створіть матрицю рішень, порівнявши шляхи за цінностями, рівнем ризику та амбіціями.
 ```
 
 </details>
 
 <details>
-<summary><strong>Personal Finance</strong></summary>
+<summary><strong>Особисті фінанси</strong></summary>
 
 ```markdown
-Apply the Tree of Thoughts method to optimize your personal finances and achieve financial independence. Begin with three main branches:
+Використайте Tree of Thoughts, щоб оптимізувати особисті фінанси та досягти фінансової незалежності. Почніть із трьох гілок:
 
-1. Income optimization
-2. Expense reduction
-3. Investment strategies
+1. Збільшення доходу
+2. Скорочення витрат
+3. Інвестиційні стратегії
 
-For each branch:
-- Identify 3-5 specific actions or strategies
-- Analyze the potential impact on your net worth over 1, 5, and 10 years
-- Consider the time and effort required to implement each strategy
-- Evaluate the associated risks and potential roadblocks
-- Assess how each strategy aligns with your lifestyle goals and values
+Для кожної гілки:
+- Запропонуйте 3–5 конкретних дій
+- Оцініть вплив на чистий капітал через 1, 5 та 10 років
+- Визначте час і зусилля, необхідні для реалізації
+- Проаналізуйте ризики та можливі перепони
+- Оцініть відповідність вашим життєвим цілям і цінностям
 
-After exploring these branches, develop a comprehensive financial plan that integrates the most promising elements from each branch, considering your risk tolerance and long-term financial objectives.
+Після опрацювання розробіть комплексний фінансовий план, поєднавши найперспективніші елементи з урахуванням толерантності до ризику та довгострокових цілей.
 ```
 
 </details>
 
 <details>
-<summary><strong>Creative Project</strong></summary>
+<summary><strong>Творчий проєкт</strong></summary>
 
 ```markdown
-Utilize the Tree of Thoughts approach to conceptualize and plan a creative project, such as writing a novel or producing a short film. Start with three main branches:
+Застосуйте Tree of Thoughts для концептуалізації й планування творчого проєкту (роману, короткометражки тощо). Стартові гілки:
 
-1. Concept development
-2. Production planning
-3. Distribution and marketing
+1. Розробка концепції
+2. Планування виробництва
+3. Дистрибуція й маркетинг
 
-For each branch:
-- Generate 3-5 unique ideas or strategies
-- Evaluate the feasibility of each idea considering your skills, resources, and time constraints
-- Analyze the potential audience appeal and commercial viability
-- Identify potential collaborators or resources needed for each approach
-- Consider how each idea aligns with your artistic vision and personal brand
+Для кожної гілки:
+- Згенеруйте 3–5 ідей чи стратегій
+- Оцініть їхню реалізованість із урахуванням навичок, ресурсів та часу
+- Проаналізуйте потенційний інтерес аудиторії й комерційну привабливість
+- Визначте, які партнери чи ресурси потрібні
+- З’ясуйте, як кожна ідея відповідає вашому творчому баченню та бренду
 
-After exploring these branches, synthesize the most compelling elements into a cohesive project plan, outlining key milestones, resource requirements, and potential challenges to overcome.
+Після аналізу поєднайте найпереконливіші елементи в чіткий план проєкту з ключовими етапами, ресурсами та можливими викликами.
 ```
 
 </details>
@@ -171,12 +171,12 @@ After exploring these branches, synthesize the most compelling elements into a c
 </details>
 
 <details>
-<summary>📝 Practice Exercise: Creative Project Planning</summary>
+<summary>📝 Практичне завдання: планування творчого проєкту</summary>
 
-1. Choose a creative project you'd like to pursue (e.g., writing a book, producing a short film, or creating a podcast series).
-2. Apply the Tree of Thoughts method to explore concept development, production planning, and distribution/marketing strategies.
-3. For each branch, generate multiple ideas, evaluate their feasibility, analyze audience appeal, and identify necessary resources or collaborators.
-4. Consider how each idea aligns with your artistic vision and personal brand.
-5. Synthesize the most compelling elements into a cohesive project plan, including key milestones and potential challenges.
+1. Оберіть творчий проєкт (написання книги, створення подкасту, короткометражного фільму тощо).
+2. Застосуйте Tree of Thoughts, щоб дослідити концепцію, планування виробництва та дистрибуцію/маркетинг.
+3. Для кожної гілки згенеруйте кілька ідей, оцініть їх реалізованість, проаналізуйте потенційний інтерес аудиторії та визначте необхідні ресурси або партнерів.
+4. Зверніть увагу, як ідеї узгоджуються з вашим творчим баченням і брендом.
+5. Синтезуйте найкращі елементи в узгоджений план із ключовими етапами та можливими викликами.
 
 </details>

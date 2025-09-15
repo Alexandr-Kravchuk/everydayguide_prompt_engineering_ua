@@ -1,197 +1,197 @@
 ## 🎯 Few-Shot Chain of Thought (Few-Shot-CoT)
 
-Few-Shot Chain of Thought (Few-Shot-CoT) is an advanced prompting technique that provides a small number of examples (typically 1-5) demonstrating step-by-step reasoning before asking the model to solve a new problem. This approach guides the model's thought process and improves its performance on complex tasks by leveraging example-based learning.
+Few-Shot Chain of Thought (Few-Shot-CoT) — це просунута техніка промптингу, у якій моделі надають невелику кількість прикладів (зазвичай 1–5), що демонструють покрокове міркування, перш ніж запропонувати розв’язати нову задачу. Такий підхід спрямовує хід думок моделі й покращує результати на складних завданнях завдяки навчанню на прикладах.
 
-### Use Cases
+### Сфери застосування
 
 <details>
-<summary>Click to expand use cases</summary>
+<summary>Натисніть, щоб переглянути приклади застосування</summary>
 
-1. **Training on specific problem-solving methodologies:** Helps in teaching consistent approaches to problem-solving
-2. **Standardizing analysis approaches across a team:** Ensures all team members follow the same logical steps
-3. **Tackling complex, multi-step problems with established procedures:** Useful for problems with known solution patterns
+1. **Навчання конкретних методик розв’язання задач:** допомагає засвоїти послідовний підхід до аналізу.
+2. **Стандартизація підходів у команді:** забезпечує дотримання єдиних логічних кроків усіма учасниками.
+3. **Робота зі складними багатокроковими задачами:** ефективно для проблем із відомими шаблонами рішень.
 
 </details>
 
-### Example Structure
+### Приклад структури
 
-When using Few-Shot-CoT, structure your prompt like this:
+Під час використання Few-Shot-CoT побудуйте промпт так:
 
 ```markdown
-Task: [Describe the task]
+Завдання: [Опишіть завдання]
 
-Prompt:
-"Here are two examples of solving [type of problem]:
+Промпт:
+"Ось два приклади розв’язання [типу задачі]:
 
-Example 1:
-Q: [First example question]
-A: Let's solve this step by step:
-1. [First step]
-2. [Second step]
-3. [Third step]
-[Conclusion]
+Приклад 1:
+Q: [Перше прикладне питання]
+A: Розв’яжімо крок за кроком:
+1. [Перший крок]
+2. [Другий крок]
+3. [Третій крок]
+[Висновок]
 
-Example 2:
-Q: [Second example question]
-A: Let's break it down:
-1. [First step]
-2. [Second step]
-3. [Third step]
-[Conclusion]
+Приклад 2:
+Q: [Друге прикладне питання]
+A: Розберімо поетапно:
+1. [Перший крок]
+2. [Другий крок]
+3. [Третій крок]
+[Висновок]
 
-Now, solve this new problem using the same approach:
-Q: [New problem to solve]"
+Тепер розв’яжи нову задачу, застосовуючи цей підхід:
+Q: [Нова задача]"
 ```
 
-### Examples of Few-Shot Chain of Thought Prompts
+### Приклади промптів Few-Shot Chain of Thought
 
 <details>
-<summary>Project Management</summary>
+<summary>Управління проєктами</summary>
 
 ```markdown
-**Prompt:** Let's use Few-Shot Chain of Thought to guide new team members through our company's project planning process. We'll provide examples for each stage:
+**Промпт:** Використаємо Few-Shot Chain of Thought, щоб провести нових членів команди через наш процес планування проєктів. Для кожної фази наведемо приклади:
 
-1. Initiating a project:
-   Example 1: Marketing Campaign
-   - Step 1: Identify the need for a new product launch campaign.
-   - Step 2: Define project objectives (increase brand awareness by 20% in 3 months).
-   - Step 3: Create a project charter outlining scope, budget, and timeline.
+1. Ініціювання проєкту:
+   Приклад 1: Маркетингова кампанія
+   - Крок 1: Визначити потребу в новій кампанії запуску продукту.
+   - Крок 2: Сформулювати цілі проєкту (збільшити впізнаваність бренду на 20% за 3 місяці).
+   - Крок 3: Створити статут проєкту із зазначенням обсягу, бюджету та строків.
 
-2. Planning a project:
-   Example 2: Software Development
-   - Step 1: Break down the project into tasks (e.g., design, coding, testing).
-   - Step 2: Assign resources to each task.
-   - Step 3: Create a Gantt chart to visualize the project timeline.
+2. Планування проєкту:
+   Приклад 2: Розроблення ПЗ
+   - Крок 1: Розбити проєкт на завдання (дизайн, розробка, тестування).
+   - Крок 2: Призначити ресурси на кожне завдання.
+   - Крок 3: Створити діаграму Ґанта для візуалізації графіка.
 
-3. Executing a project:
-   Example 3: Office Relocation
-   - Step 1: Coordinate with moving company and IT team.
-   - Step 2: Oversee packing and labeling of equipment.
-   - Step 3: Manage the setup of workstations in the new location.
+3. Виконання проєкту:
+   Приклад 3: Переїзд офісу
+   - Крок 1: Узгодити дії з компанією-перевізником та ІТ-відділом.
+   - Крок 2: Контролювати пакування й маркування обладнання.
+   - Крок 3: Керувати налаштуванням робочих місць у новому офісі.
 
-4. Closing a project:
-   Example 4: Annual Financial Audit
-   - Step 1: Conduct a final review of all audit reports.
-   - Step 2: Present findings to stakeholders and address any concerns.
-   - Step 3: Archive project documents and conduct a lessons learned session.
+4. Завершення проєкту:
+   Приклад 4: Щорічний фінансовий аудит
+   - Крок 1: Провести фінальну перевірку всіх аудиторських звітів.
+   - Крок 2: Представити результати стейкхолдерам та відповісти на запитання.
+   - Крок 3: Архівувати документи проєкту й провести сесію «уроки з досвіду».
 
-Now, apply this process to plan a new project in your department, detailing each stage as shown in the examples.
-```
-
-</details>
-
-<details>
-<summary>Home Appliance Troubleshooting</summary>
-
-```markdown
-**Prompt:** Let's use Few-Shot Chain of Thought to teach a beginner how to troubleshoot common household appliance issues:
-
-1. Refrigerator not cooling:
-   - Step 1: Check if the fridge is plugged in and the circuit breaker hasn't tripped.
-   - Step 2: Ensure the temperature control is set correctly.
-   - Step 3: Clean the condenser coils at the back or bottom of the fridge.
-   Example: In a recent case, cleaning the coils resolved the cooling issue for a 5-year-old refrigerator.
-
-2. Washing machine not draining:
-   - Step 1: Check for clogs in the drain hose.
-   - Step 2: Clean the pump filter located at the front bottom of the machine.
-   - Step 3: Ensure the drain hose isn't kinked or bent.
-   Example: Last month, a homeowner found coins blocking the pump filter, causing drainage issues.
-
-3. Microwave not heating:
-   - Step 1: Test if the outlet is working by plugging in another appliance.
-   - Step 2: Check if the door is closing properly and the safety latch is engaging.
-   - Step 3: Listen for the fan and turntable motor when the microwave is on.
-   Example: Recently, a faulty door switch prevented a microwave from starting, which was fixed by replacing the switch.
-
-Now, apply this troubleshooting process to diagnose and potentially fix an issue with your dishwasher that's not cleaning dishes properly.
+Тепер застосуйте цей процес для планування нового проєкту у своєму відділі, детально описавши кожен етап, як у прикладах.
 ```
 
 </details>
 
 <details>
-<summary>Educational Strategies</summary>
+<summary>Діагностика побутової техніки</summary>
 
 ```markdown
-**Prompt:** Let's use Few-Shot Chain of Thought to demonstrate effective teaching strategies for different learning styles:
+**Промпт:** Скористаймося Few-Shot Chain of Thought, щоб навчити новачка усувати поширені несправності побутової техніки:
 
-1. Visual Learners:
-   Example 1: Teaching the water cycle
-   - Step 1: Create a colorful diagram showing the stages of the water cycle.
-   - Step 2: Use animated videos to demonstrate evaporation, condensation, and precipitation.
-   - Step 3: Have students create their own illustrated water cycle posters.
+1. Холодильник не охолоджує:
+   - Крок 1: Перевірити, чи ввімкнено холодильник та чи не вибило автомат.
+   - Крок 2: Упевнитися, що регулятор температури налаштований правильно.
+   - Крок 3: Почистити конденсаторні котушки на задній чи нижній панелі.
+   Приклад: Нещодавно очищення котушок вирішило проблему охолодження 5-річного холодильника.
 
-2. Auditory Learners:
-   Example 2: Teaching multiplication tables
-   - Step 1: Create rhythmic chants for each multiplication table (e.g., "2, 4, 6, 8, who do we appreciate? 2 times tables!").
-   - Step 2: Use musical mnemonics to help memorize harder facts.
-   - Step 3: Encourage students to explain multiplication concepts to each other verbally.
+2. Пральна машина не зливає воду:
+   - Крок 1: Перевірити, чи не забитий зливний шланг.
+   - Крок 2: Почистити фільтр насоса в нижній передній частині.
+   - Крок 3: Переконатися, що шланг не перегнутий.
+   Приклад: Минулого місяця власник знайшов монети у фільтрі, які блокували злив.
 
-3. Kinesthetic Learners:
-   Example 3: Teaching basic geometry
-   - Step 1: Use tangible shapes for students to manipulate and explore.
-   - Step 2: Create a geometry scavenger hunt around the classroom or school.
-   - Step 3: Have students use their bodies to form different shapes and angles.
+3. Мікрохвильова піч не гріє:
+   - Крок 1: Перевірити розетку, підключивши інший прилад.
+   - Крок 2: Переконатися, що дверцята щільно зачиняються і спрацьовує замок безпеки.
+   - Крок 3: Послухати, чи працюють вентилятор і мотор піддона.
+   Приклад: Нещодавно несправний кінцевий вимикач дверцят заважав запуску печі, його заміна вирішила проблему.
 
-Now, apply these strategies to develop a lesson plan for teaching the concept of photosynthesis, incorporating elements for each learning style.
+Тепер застосуйте цю схему, щоб діагностувати й, можливо, усунути несправність посудомийної машини, яка погано миє посуд.
 ```
 
 </details>
 
 <details>
-<summary>Website Creation</summary>
+<summary>Освітні стратегії</summary>
 
 ```markdown
-**Prompt:** Let's use Few-Shot Chain of Thought to guide someone through the process of creating a simple website:
+**Промпт:** Використаємо Few-Shot Chain of Thought, щоб показати ефективні методи навчання для різних стилів:
 
-1. Choosing a platform:
-   Example 1: Small business website
-   - Step 1: Assess needs (e.g., e-commerce, blog, portfolio).
-   - Step 2: Compare platforms like WordPress, Wix, and Squarespace.
-   - Step 3: Choose WordPress for its flexibility and scalability.
+1. Візуальні учні:
+   Приклад 1: Вивчення кругообігу води
+   - Крок 1: Створити яскраву схему зі стадіями кругообігу.
+   - Крок 2: Показати анімовані відео з випаровуванням, конденсацією та опадами.
+   - Крок 3: Запропонувати учням намалювати власні плакати.
 
-2. Designing the layout:
-   Example 2: Personal blog
-   - Step 1: Sketch a rough layout on paper.
-   - Step 2: Choose a theme that matches the sketch (e.g., minimalist theme for a writing blog).
-   - Step 3: Customize the theme colors and fonts to match personal branding.
+2. Аудіальні учні:
+   Приклад 2: Вивчення таблички множення
+   - Крок 1: Створити ритмічні кричалки для кожної таблиці (наприклад, «2, 4, 6, 8 — двійку будемо знати!»).
+   - Крок 2: Використати музичні мнемоніки для складних фактів.
+   - Крок 3: Заохочувати учнів пояснювати множення один одному вголос.
 
-3. Adding content:
-   Example 3: Photography portfolio
-   - Step 1: Organize photos into categories (e.g., nature, portraits, events).
-   - Step 2: Create gallery pages for each category.
-   - Step 3: Write descriptions for each photo, including camera settings used.
+3. Кінестетичні учні:
+   Приклад 3: Вивчення базової геометрії
+   - Крок 1: Використати реальні фігури для маніпуляцій і дослідження.
+   - Крок 2: Провести геометричний квест у класі або школі.
+   - Крок 3: Запропонувати учням створювати фігури та кути власними тілами.
 
-4. Optimizing for search engines:
-   Example 4: Local restaurant website
-   - Step 1: Research relevant keywords (e.g., "best Italian restaurant in [city]").
-   - Step 2: Incorporate keywords naturally into page titles, headers, and content.
-   - Step 3: Submit the site to Google My Business and local directories.
-
-Now, apply this process to create a website for a fictional small business of your choice, detailing each stage as shown in the examples.
+Тепер розробіть план уроку про фотосинтез, включивши елементи для кожного стилю навчання.
 ```
 
 </details>
 
-### 💡 Pro Tip: Adapting Few-Shot-CoT to Various Domains
+<details>
+<summary>Створення вебсайту</summary>
 
-As demonstrated by these examples, Few-Shot Chain of Thought can be applied to a wide range of fields and tasks. When creating your own Few-Shot-CoT prompts:
+```markdown
+**Промпт:** Використаємо Few-Shot Chain of Thought, щоб провести користувача через створення простого сайту:
 
-1. **Choose diverse examples:** Select examples that cover different aspects or scenarios within the domain.
-2. **Maintain consistent structure:** Use a similar step-by-step format across all examples.
-3. **Include real-world context:** Where possible, add brief real-world examples or outcomes to make the steps more relatable and memorable.
-4. **Tailor complexity:** Adjust the complexity of your examples based on the expected knowledge level of your audience.
-5. **Encourage application:** Always end with a prompt for the learner to apply the demonstrated process to a new scenario.
+1. Вибір платформи:
+   Приклад 1: Сайт малого бізнесу
+   - Крок 1: Визначити потреби (e-commerce, блог, портфоліо).
+   - Крок 2: Порівняти платформи WordPress, Wix, Squarespace.
+   - Крок 3: Обрати WordPress за гнучкість і масштабованість.
+
+2. Проєктування макета:
+   Приклад 2: Персональний блог
+   - Крок 1: Замалювати приблизний макет на папері.
+   - Крок 2: Обрати тему, що відповідає ескізу (наприклад, мінімалістична для блогу письменника).
+   - Крок 3: Налаштувати кольори та шрифти відповідно до особистого бренду.
+
+3. Додавання контенту:
+   Приклад 3: Портфоліо фотографа
+   - Крок 1: Розсортувати фото за категоріями (природа, портрети, події).
+   - Крок 2: Створити галереї для кожної категорії.
+   - Крок 3: Написати описи з інформацією про налаштування камери.
+
+4. Оптимізація для пошукових систем:
+   Приклад 4: Сайт ресторану
+   - Крок 1: Дослідити релевантні ключові слова (наприклад, «кращий італійський ресторан у [місті]»).
+   - Крок 2: Органічно додати ключові слова в заголовки, підзаголовки та контент.
+   - Крок 3: Зареєструвати сайт у Google My Business і локальних каталогах.
+
+Тепер застосуйте цей процес, щоб створити сайт для вигаданого малого бізнесу, детально описавши кожен етап, як у прикладах.
+```
+
+</details>
+
+### 💡 Порада: адаптація Few-Shot-CoT до різних сфер
+
+Як показують наведені приклади, Few-Shot Chain of Thought можна застосувати в багатьох галузях. Створюючи власні промпти Few-Shot-CoT:
+
+1. **Оберіть різноманітні приклади:** покажіть різні аспекти або сценарії у вибраній сфері.
+2. **Зберігайте єдину структуру:** використовуйте схожий покроковий формат для всіх прикладів.
+3. **Додавайте реальний контекст:** за можливості вказуйте короткі реальні кейси чи результати, щоб кроки були зрозумілішими.
+4. **Підлаштовуйте складність:** адаптуйте рівень деталей під очікувані знання аудиторії.
+5. **Заохочуйте застосування:** завершайте промпт завданням, де користувач має застосувати показаний підхід у новій ситуації.
 
 ---
 
 <details>
-<summary>📝 Practice Exercise: Domain-Specific Few-Shot-CoT Prompts</summary>
+<summary>📝 Практичне завдання: галузеві промпти Few-Shot-CoT</summary>
 
-1. Choose a complex process or concept from your field of expertise or interest.
-2. Create a Few-Shot Chain of Thought prompt for this process, following the structure of the examples above.
-3. Include 2-3 examples that demonstrate different aspects or applications of the process.
-4. End with a prompt for applying the process to a new scenario.
-5. Test your prompt with an AI model or a colleague and evaluate the response.
+1. Оберіть складний процес або концепцію зі своєї професійної сфери чи інтересу.
+2. Створіть промпт Few-Shot Chain of Thought для цього процесу, дотримуючись наведеної структури.
+3. Додайте 2–3 приклади, що демонструють різні аспекти або застосування процесу.
+4. Завершіть промпт завданням, у якому потрібно застосувати метод до нової ситуації.
+5. Протестуйте промпт на моделі ШІ або з колегою й оцініть отриману відповідь.
 
 </details>

@@ -1,222 +1,222 @@
-## 🔗 Prompt Chaining
+## 🔗 Ланцюжок промптів (Prompt Chaining)
 
-Prompt Chaining is a technique that breaks down complex tasks into a series of simpler, interconnected prompts. The output of one prompt serves as input for the next in the sequence, allowing for a step-by-step approach to solving complex problems or completing multi-stage tasks.
+Ланцюжок промптів — це техніка, що розбиває складні завдання на серію простіших, взаємопов’язаних промптів. Вихід одного промпту слугує вхідними даними для наступного, тож ви крок за кроком розв’язуєте складну проблему або виконуєте багатоетапне завдання.
 
-### Use Cases
+### Сфери застосування
 
 <details>
-<summary>Click to expand use cases</summary>
+<summary>Натисніть, щоб побачити приклади використання</summary>
 
-1. **Multi-step data analysis:** Allows for sequential processing of data through various stages
-2. **Complex content creation:** Enables the creation of intricate content by building upon previous outputs
-3. **Sequential decision-making processes:** Facilitates step-by-step decision-making in complex scenarios
+1. **Багатокроковий аналіз даних:** послідовна обробка даних на різних етапах.
+2. **Створення складного контенту:** поступове нарощування результату, спираючись на попередні виходи.
+3. **Послідовне ухвалення рішень:** покрокова робота з комплексними сценаріями.
 
 </details>
 
-### Example Structure
+### Приклад структури
 
 ```markdown
-When using Prompt Chaining, structure your approach like this:
-Task: "Write a short blog post about healthy eating"
-Chain:
-1. Prompt: "List 5 key principles of healthy eating"
-   Output: [List of principles]
-2. Prompt: "For each principle in [Output 1], provide a brief explanation"
-   Output: [Explanations for each principle]
-3. Prompt: "Using [Output 2], write an introduction paragraph for a blog post on healthy eating"
-   Output: [Introduction paragraph]
-4. Prompt: "Based on [Output 1] and [Output 2], write the main body of the blog post"
-   Output: [Main body of the post]
-5. Prompt: "Using all previous outputs, write a conclusion paragraph for the blog post"
-   Final Output: [Complete blog post]
+Використовуючи Prompt Chaining, побудуйте робочий процес так:
+Завдання: "Напиши короткий блог-пост про здорове харчування"
+Ланцюжок:
+1. Промпт: "Переліч 5 ключових принципів здорового харчування"
+   Вихід: [Список принципів]
+2. Промпт: "Для кожного принципу з [Вихід 1] наведи коротке пояснення"
+   Вихід: [Пояснення для кожного принципу]
+3. Промпт: "Використовуючи [Вихід 2], напиши вступний абзац для блог-поста про здорове харчування"
+   Вихід: [Вступ]
+4. Промпт: "На основі [Вихід 1] та [Вихід 2] створи основну частину блог-поста"
+   Вихід: [Основний текст]
+5. Промпт: "Спираючись на всі попередні виходи, напиши завершальний абзац"
+   Фінальний результат: [Повний блог-пост]
 ```
 
-### Examples of Prompt Chaining
+### Приклади ланцюжка промптів
 
 <details>
-<summary>Example 1: New Product Development and Launch</summary>
+<summary>Приклад 1: Розроблення й запуск нового продукту</summary>
 
 ```markdown
-Implement Prompt Chaining to develop and launch a new product:
+Застосуйте Prompt Chaining, щоб створити й запустити новий продукт:
 
-1. Conduct market research:
-   - Analyze current market trends and consumer needs
-   - Identify potential competitors and their offerings
-   - Determine target demographic and their preferences
+1. Проведіть дослідження ринку:
+   - Проаналізуйте поточні тренди та потреби споживачів
+   - Визначте потенційних конкурентів і їхні пропозиції
+   - Окресліть цільову аудиторію та її вподобання
 
-2. Generate product concepts:
-   - Based on market research, brainstorm innovative product ideas
-   - Evaluate each concept's feasibility and market potential
-   - Select the most promising concept for development
+2. Згенеруйте концепції продукту:
+   - На основі дослідження придумайте інноваційні ідеї
+   - Оцініть життєздатність і ринковий потенціал кожної ідеї
+   - Оберіть найперспективнішу концепцію для розробки
 
-3. Design and prototype:
-   - Create detailed product specifications
-   - Develop initial prototypes and conduct user testing
-   - Refine the design based on user feedback
+3. Спроєктуйте й створіть прототип:
+   - Підготуйте детальні специфікації продукту
+   - Розробіть перші прототипи та проведіть тестування з користувачами
+   - Удоскональте дизайн за підсумками відгуків
 
-4. Develop marketing strategy:
-   - Create a unique value proposition
-   - Identify key marketing channels and messaging
-   - Develop a launch timeline and budget
+4. Складіть маркетингову стратегію:
+   - Сформулюйте унікальну торгову пропозицію
+   - Визначте ключові канали та повідомлення
+   - Заплануйте графік запуску та бюджет
 
-5. Plan production and distribution:
-   - Identify potential suppliers and manufacturing partners
-   - Develop a production schedule and quality control measures
-   - Create a distribution strategy and logistics plan
+5. Сплануйте виробництво й дистрибуцію:
+   - Знайдіть постачальників і виробничих партнерів
+   - Складіть виробничий план і систему контролю якості
+   - Розробіть стратегію логістики й розподілу
 
-6. Launch and monitor:
-   - Execute the marketing plan and product launch
-   - Monitor initial sales and customer feedback
-   - Adjust strategies based on early performance data
-```
-
-</details>
-
-<details>
-<summary>Example 2: Planning a Major Life Transition</summary>
-
-```markdown
-Apply Prompt Chaining to plan and execute a major life transition, such as moving to a new city:
-
-1. Research potential cities:
-   - Analyze job markets, cost of living, and quality of life factors
-   - Compare climate, culture, and amenities of different cities
-   - Create a shortlist of top contenders
-
-2. Plan the move:
-   - Develop a timeline for the transition
-   - Create a budget for moving expenses and initial setup costs
-   - Research housing options and neighborhoods in the chosen city
-
-3. Secure employment or education:
-   - Update resume and online professional profiles
-   - Apply for jobs or educational programs in the new city
-   - Prepare for interviews or admission processes
-
-4. Manage logistics:
-   - Organize packing and decluttering of current home
-   - Arrange for transportation of belongings
-   - Set up utilities and services in the new location
-
-5. Establish a new life:
-   - Develop a plan for making social connections in the new city
-   - Research local activities, clubs, or volunteer opportunities
-   - Create a schedule for exploring and familiarizing with the new environment
-
-6. Reflect and adjust:
-   - After the move, evaluate the transition process
-   - Identify areas for improvement or unexpected challenges
-   - Develop strategies for long-term success in the new location
+6. Запустіть продукт і відстежуйте результати:
+   - Реалізуйте маркетинговий план і запуск
+   - Стежте за стартовими продажами та відгуками клієнтів
+   - Коригуйте стратегію на основі ранніх показників
 ```
 
 </details>
 
 <details>
-<summary>Example 3: Personal Finance Management</summary>
+<summary>Приклад 2: Планування важливих життєвих змін</summary>
 
 ```markdown
-Apply Prompt Chaining to create and implement a personal financial plan:
+Застосуйте Prompt Chaining, щоб спланувати переїзд до нового міста:
 
-1. Assess current financial situation:
-   - List all sources of income and regular expenses
-   - Calculate net worth (assets minus liabilities)
-   - Review credit score and outstanding debts
+1. Дослідіть потенційні міста:
+   - Проаналізуйте ринок праці, вартість життя та якість інфраструктури
+   - Порівняйте клімат, культуру та доступні послуги
+   - Складіть короткий список найпривабливіших варіантів
 
-2. Set financial goals:
-   - Define short-term goals (e.g., building an emergency fund)
-   - Establish medium-term goals (e.g., paying off credit card debt)
-   - Outline long-term goals (e.g., saving for retirement or a home)
+2. Сплануйте переїзд:
+   - Створіть таймлайн переходу
+   - Складіть бюджет на переїзд та облаштування
+   - Дослідіть житлові варіанти й райони у вибраному місті
 
-3. Create a budget:
-   - Categorize expenses (essential vs. non-essential)
-   - Allocate income to different expense categories
-   - Identify areas for potential savings
+3. Забезпечте роботу чи навчання:
+   - Оновіть резюме та профілі у професійних мережах
+   - Подайте заявки на вакансії або освітні програми
+   - Підготуйтеся до співбесід чи вступних випробувань
 
-4. Develop a debt repayment strategy:
-   - List all debts with their interest rates
-   - Choose a repayment method (e.g., snowball or avalanche)
-   - Create a timeline for becoming debt-free
+4. Організуйте логістику:
+   - Розберіть речі й заплануйте пакування
+   - Організуйте транспортування майна
+   - Підключіть комунальні послуги в новому місці
 
-5. Establish a savings and investment plan:
-   - Set up an emergency fund
-   - Research and choose appropriate investment vehicles (e.g., 401(k), IRA, index funds)
-   - Determine monthly contribution amounts for each savings goal
+5. Влаштуйте нове життя:
+   - Розробіть план знайомств у новому місті
+   - Дослідіть місцеві активності, клуби або волонтерські можливості
+   - Складіть графік дослідження нового оточення
 
-6. Implement and monitor:
-   - Set up automatic transfers for savings and debt payments
-   - Track expenses and review budget regularly
-   - Adjust the plan as needed based on progress and life changes
+6. Проаналізуйте й відкоригуйте:
+   - Після переїзду оцініть перебіг переходу
+   - Визначте, що можна покращити або які виклики з’явилися
+   - Розробіть стратегії довгострокового успіху на новому місці
 ```
 
 </details>
 
 <details>
-<summary>Example 4: Home Organization and Decluttering</summary>
+<summary>Приклад 3: Управління особистими фінансами</summary>
 
 ```markdown
-Use Prompt Chaining to organize and declutter your living space:
+Використайте Prompt Chaining для створення та реалізації фінансового плану:
 
-1. Assess the current state:
-   - Walk through each room and note problem areas
-   - Identify items that are rarely used or causing clutter
-   - Determine specific organization needs for each space
+1. Оцініть поточний стан:
+   - Перелічіть усі джерела доходів і регулярні витрати
+   - Розрахуйте чисту вартість активів (активи мінус зобов’язання)
+   - Перегляньте кредитний рейтинг і наявні борги
 
-2. Set organization goals:
-   - Prioritize areas to tackle based on need and impact
-   - Establish a timeline for completing each area
-   - Define what a "successfully organized" space looks like
+2. Встановіть фінансові цілі:
+   - Сформулюйте короткострокові цілі (наприклад, створення подушки безпеки)
+   - Визначте середньострокові цілі (наприклад, погашення кредитних карток)
+   - Окресліть довгострокові цілі (наприклад, накопичення на пенсію чи житло)
 
-3. Create a decluttering plan:
-   - Choose a method (e.g., KonMari, Four-Box)
-   - Schedule dedicated time for decluttering sessions
-   - Prepare necessary supplies (boxes, labels, cleaning materials)
+3. Складіть бюджет:
+   - Розподіліть витрати за категоріями (обов’язкові й необов’язкові)
+   - Розподіліть доходи між категоріями витрат
+   - Визначте, де можна заощадити
 
-4. Sort and declutter:
-   - Go through items in each area, deciding to keep, donate, sell, or discard
-   - Group similar items together
-   - Identify any items that belong in different rooms
+4. Розробіть стратегію погашення боргів:
+   - Перерахуйте всі борги з процентними ставками
+   - Оберіть метод погашення (наприклад, сніжний ком чи лавина)
+   - Складіть графік виходу з боргів
 
-5. Organize and store:
-   - Research and choose appropriate storage solutions
-   - Assign homes for all items being kept
-   - Label containers and spaces for easy maintenance
+5. Налаштуйте заощадження та інвестиції:
+   - Створіть резервний фонд
+   - Дослідіть та оберіть інструменти інвестування (наприклад, 401(k), IRA, індексні фонди)
+   - Визначте щомісячні внески за кожною ціллю
 
-6. Maintain and refine:
-   - Implement daily and weekly tidying routines
-   - Regularly reassess spaces and adjust as needed
-   - Practice mindful purchasing to prevent future clutter
+6. Реалізуйте й відстежуйте:
+   - Запустіть автоматичні перекази на заощадження й погашення боргів
+   - Відстежуйте витрати та регулярно переглядайте бюджет
+   - Коригуйте план залежно від прогресу та змін у житті
 ```
 
 </details>
 
-## 💡 Pro Tips for Effective Prompt Chaining
+<details>
+<summary>Приклад 4: Організація простору й розбір речей</summary>
 
-1. **Clear dependencies:** Ensure each prompt clearly builds on the output of the previous one.
-2. **Modular design:** Create prompts that can be reordered or reused in different chains if needed.
-3. **Error handling:** Include prompts to verify and correct outputs at critical stages.
-4. **Iterate and refine:** Test your chain with different inputs and refine prompts as needed.
-5. **Balance detail and flexibility:** Provide enough guidance in each prompt without being overly restrictive.
-6. **Consider context preservation:** Ensure important context is carried through the chain.
-7. **Incorporate feedback loops:** Design points in the chain where outputs can be reviewed and adjusted if necessary.
+```markdown
+Застосуйте Prompt Chaining, щоб організувати житловий простір і позбутися зайвого:
+
+1. Оцініть поточний стан:
+   - Пройдіться кожною кімнатою й зафіксуйте проблемні зони
+   - Визначте речі, які рідко використовуються або створюють безлад
+   - З’ясуйте конкретні потреби в організації для кожного простору
+
+2. Поставте цілі впорядкування:
+   - Визначте пріоритетні зони за потребами й впливом
+   - Складіть графік завершення роботи в кожній зоні
+   - Опишіть, як виглядатиме «добре організований» простір
+
+3. Створіть план розбору:
+   - Оберіть метод (наприклад, KonMari, «чотири коробки»)
+   - Виділіть час для регулярних сесій розбирання
+   - Підготуйте необхідні матеріали (коробки, етикетки, засоби для прибирання)
+
+4. Сортуйте й позбувайтеся зайвого:
+   - Перегляньте речі в кожній зоні, вирішуючи, що залишити, подарувати, продати чи викинути
+   - Групуйте схожі речі
+   - Перемістіть предмети, що належать до інших кімнат
+
+5. Організуйте та зберігайте:
+   - Дослідіть і підберіть відповідні рішення для зберігання
+   - Призначте місце для кожної речі, яку залишаєте
+   - Промаркуйте контейнери та зони для полегшення підтримки порядку
+
+6. Підтримуйте та вдосконалюйте:
+   - Впровадьте щоденні та щотижневі рутини прибирання
+   - Регулярно оцінюйте простір і коригуйте систему за потреби
+   - Практикуйте усвідомлені покупки, щоб уникнути нового безладу
+```
+
+</details>
+
+## 💡 Поради для ефективного ланцюжка промптів
+
+1. **Чіткі залежності:** переконайтеся, що кожен промпт однозначно спирається на вихід попереднього.
+2. **Модульність:** створюйте промпти, які можна переставляти або повторно використовувати в інших ланцюжках.
+3. **Обробка помилок:** додайте промпти для перевірки та корекції результатів на критичних етапах.
+4. **Ітерації та вдосконалення:** тестуйте ланцюжок на різних вхідних даних і за потреби коригуйте промпти.
+5. **Баланс точності й гнучкості:** давайте достатньо вказівок у кожному промпті, не обмежуючи модель занадто сильно.
+6. **Збереження контексту:** стежте, щоб важливий контекст передавався протягом усього ланцюжка.
+7. **Зворотні зв’язки:** передбачте етапи, коли результати можна переглянути та скоригувати.
 
 ---
 
 <details>
-<summary>📝 Practice Exercise: Designing a Prompt Chain</summary>
+<summary>📝 Практичне завдання: проєктування ланцюжка промптів</summary>
 
-1. Choose a complex task or project that involves multiple steps or stages (e.g., writing a research paper, planning a marketing campaign, developing a software application).
+1. Оберіть складне завдання або проєкт із кількома етапами (наприклад, написання дослідницької роботи, планування маркетингової кампанії, розроблення програмного забезпечення).
 
-2. Break down the task into 5-8 main stages or components.
+2. Розбийте завдання на 5–8 ключових етапів або складників.
 
-3. For each stage:
-   a. Write a clear prompt that describes the input needed and the expected output.
-   b. Explain how this prompt uses information from previous stages (if applicable).
-   c. Identify potential challenges or areas where the output might need refinement.
+3. Для кожного етапу:
+   a. Напишіть чіткий промпт із описом потрібних вхідних даних і очікуваного результату.
+   b. Поясніть, як цей промпт використовує інформацію з попередніх етапів (якщо це актуально).
+   c. Визначте потенційні складнощі або місця, де результат може потребувати доопрацювання.
 
-4. Create a flowchart or diagram that visually represents your prompt chain, showing how information flows from one stage to the next.
+4. Створіть блок-схему або діаграму, що візуально показує ланцюжок промптів і потік інформації між етапами.
 
-5. Develop a strategy for handling potential errors or unexpected outputs at each stage of the chain.
+5. Розробіть стратегію обробки помилок чи неочікуваних результатів на кожному етапі.
 
-6. Identify at least two points in your chain where human review or intervention might be beneficial, and explain why.
+6. Визначте щонайменше два місця, де корисним буде втручання або перевірка людини, і поясніть чому.
 
 </details>
